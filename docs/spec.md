@@ -355,7 +355,7 @@ support `Apply` algebra for the same `T`, and obey following laws:
 
 #### Can be derived
 
-  1. Functor's map: `A.map = (f, u) => A.ap(A.of(f), u)`
+  1. Functor's map: `A.map(f, u) ≡ A.ap(A.of(f), u)`
 
 
 
